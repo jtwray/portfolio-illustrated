@@ -32,16 +32,18 @@ No further implementation is implied.
 
 **Explicitly out of scope:** webhook/n8n, automatic responses, CRM writes, lead scoring, unattended outreach.
 
-## ILL-02 — Curated proof inventory checkpoint [Awaiting user answer]
+## ILL-02 — Curated proof inventory checkpoint [Started / Minimal proof packet pending]
 
-**First question:** **Have you finished the curated proof library / ProofTree / Engineering Skills Registry yet?** Record completed / partially completed / not started with a link to its canonical location, if available.
+**Status confirmed 2026-10-19:** Tucker reports the ProofTree/Engineering Skills Registry was **just started**. Its public [repository](https://github.com/jtwray/prooftree) exists but has no committed files as of this check. The full registry is **not a prerequisite** for resolving the illustrated portfolio WAMIF links.
 
 **In scope**
 1. Identify publicly shareable, **verified** project claims and source references for the projects on this illustrated portfolio, prioritizing WAMIF.
 2. Record the minimal WAMIF proof packet: problem, own contribution, implementation, screenshots/demo, test/deploy evidence, limitations, and public-safe link.
 3. Mark uncertain/missing proof as unverified; propose the smallest missing piece rather than inventing supporting evidence.
 
-**Done when:** the evidence status and owners are documented and the WAMIF destination gate is actionable.
+**Near-term WAMIF packet (independent of full ProofTree):** identify the canonical WAMIF Rebuild source, document the problem and Tucker’s contribution, confirm architecture/stack from code, reference tests and deployment evidence, select a privacy-safe screenshot/demo or public case study, and label all gaps explicitly. Never claim evidence that was not reviewed.
+
+**Done when:** this *minimal* WAMIF proof packet and public-safe destination choices are documented, making ILL-03 actionable; a complete ProofTree product is not required.
 
 **Out of scope:** building a new proof registry app, generating unverified testimonials, exposing private artifacts.
 

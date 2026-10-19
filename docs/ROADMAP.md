@@ -16,11 +16,13 @@ Present Tucker Wray's software engineering and small-business systems work in an
 | --- | --- | --- | --- |
 | M0 — Independent illustrated release | **Complete** | Separate GitHub repo, static Netlify deploy, branded HTTPS subdomain, project cards, responsive design, Netlify form registered | ILL-00 |
 | M1 — Lead capture end-to-end | **Needs verification** | One legitimate inquiry visible in Netlify Forms, expected inbox notification received, handling/spam path checked | ILL-01 |
-| M2 — Curated proof checkpoint | **Awaiting Tucker** | Ask whether curated proof library / ProofTree / Engineering Skills Registry is complete; identify verified, public-safe evidence and gaps for showcased work | ILL-02 |
-| M3 — WAMIF link and claim correction | **Blocked by M2 and destination review** | Select public-safe, logged-out-accessible project destination; correct both image/title links and technology/status claims | ILL-03 · [Issue #1](https://github.com/jtwray/portfolio-illustrated/issues/1) |
+| M2 — Curated proof checkpoint | **Started — evidence packet pending** | Tucker confirmed ProofTree has just started (2026-10-19); assemble the smallest verified, public-safe WAMIF evidence packet without waiting for the entire registry | ILL-02 |
+| M3 — WAMIF link and claim correction | **Blocked by minimal evidence packet and destination review** | Select public-safe, logged-out-accessible project destination; correct both image/title links and technology/status claims | ILL-03 · [Issue #1](https://github.com/jtwray/portfolio-illustrated/issues/1) |
 | M4 — Portfolio release QA and evidence hygiene | **Proposed** | Confirm remaining project links, copy, accessibility, mobile, outbound CTA, contact, and proof references without regressions | ILL-04 |
 
-Only **one implementation slice** should be active at a time. Work marked *Proposed* is not an implementation authorization. The next unclosed acceptance gate is M1; M2 can be clarified conversationally without starting a competing coding slice.
+**ProofTree checkpoint (2026-10-19):** Tucker says the curated proof library was **just started**. The canonical [ProofTree repository](https://github.com/jtwray/prooftree) currently exists but has no committed files. This is a repository observation, **not** a judgment that no evidence exists in WAMIF or other projects. The portfolio needs only a minimal independently verified proof packet for ILL-03; ProofTree itself does not have to be finished.
+
+Only **one implementation slice** should be active at a time. Work marked *Proposed* is not an implementation authorization. The next unclosed acceptance gate is M1; ILL-02 may inventory evidence while the full ProofTree system is being developed independently.
 
 ## WAMIF decision record / guardrails
 

@@ -29,7 +29,7 @@ Before promoting this design to the apex domain, review project claims, content 
 - [Scoped slices and acceptance criteria](docs/SLICES.md)
 - [WAMIF proof/link follow-up](https://github.com/jtwray/portfolio-illustrated/issues/1)
 
-The Netlify `reachout` form is registered, but end-to-end submission and notification delivery must still be verified (Slice ILL-01). The curated proof library completion status is unknown (Slice ILL-02).
+The Netlify `reachout` form is registered, but end-to-end submission and notification delivery must still be verified (Slice ILL-01). ProofTree was just started (2026-10-19); the public repo is currently empty, and a minimal WAMIF evidence packet remains to be assembled in Slice ILL-02.
 
 ## Project links
 

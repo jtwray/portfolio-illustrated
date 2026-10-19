@@ -30,8 +30,6 @@
     revealEls.forEach(el => observer.observe(el));
   } else revealEls.forEach(el => el.classList.add('in-view'));
   const status = document.querySelector('.form-status');
-  const params = new URLSearchParams(window.location.search);
-  if (status && params.get('sent') === '1') status.textContent = 'Thanks for reaching out. Your note was submitted.';
   const form = document.querySelector('form[name="reachout"]');
   if (form && location.protocol === 'file:') form.addEventListener('submit', event => {
     event.preventDefault();

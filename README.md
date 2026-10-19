@@ -13,15 +13,23 @@ Open `index.html` in a browser or start a static server such as `python -m http.
 - `assets/app.js`: mobile menu, project filters and progressive enhancements.
 - `assets/art/`: original illustration assets (two generated WebP compositions and four SVG illustrations).
 
-This is a concept presentation, not a production cutover. The illustrated person is a conceptual figure, not a verified portrait of Tucker Wray. The project vignettes are illustrations, not application screenshots.
+This is an independently deployed illustrated portfolio candidate, **not** a cutover of `tuckerwray.com`. The illustrated person is a conceptual figure, not a verified portrait of Tucker Wray. The project vignettes are illustrations, not application screenshots.
 
 ## Publishing safely
 
-Deploy the repository root as static files from a non-production Netlify site or branch preview. **Do not redirect production traffic or change DNS without a separate reviewed deployment plan.**
+The `main` branch is deployed as a static site on Netlify at **https://illustrated.tuckerwray.com**. The original `tuckerwray.com` portfolio is intentionally independent; do not change its domains or email DNS without a separate reviewed cutover plan.
 
 The contact form uses Netlify Forms markup and a honeypot. On a Netlify deployment, test a submission and enable the appropriate form notifications. On localhost or `file://`, the form cannot deliver messages; use the email link.
 
-Before releasing to production, review project claims, content links, accessibility, and contact routing; protect Zoho email DNS records (MX, SPF, DKIM, DMARC) and the legacy archive migration plan.
+Before promoting this design to the apex domain, review project claims, content links, accessibility, and contact routing; protect Zoho email DNS records (MX/SPF/DKIM/DMARC) and the legacy archive migration plan.
+
+## Planning and verification
+
+- [Illustrated portfolio roadmap](docs/ROADMAP.md)
+- [Scoped slices and acceptance criteria](docs/SLICES.md)
+- [WAMIF proof/link follow-up](https://github.com/jtwray/portfolio-illustrated/issues/1)
+
+The Netlify `reachout` form is registered, but end-to-end submission and notification delivery must still be verified (Slice ILL-01). The curated proof library completion status is unknown (Slice ILL-02).
 
 ## Project links
 

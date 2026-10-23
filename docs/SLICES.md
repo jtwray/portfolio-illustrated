@@ -1,6 +1,6 @@
 # Illustrated Portfolio — Slices
 
-_Last reviewed: 2026-10-23 (new requests ILL-05 and ILL-06; earlier slices retain their recorded status)_
+_Last reviewed: 2026-10-23 (CR-003 / future ILL-07 added; earlier slice statuses retain their recorded scope)_
 
 ## Slice operating rules
 
@@ -112,6 +112,31 @@ No further implementation is implied.
 **Status:** not required for the portfolio MVP and **not approved for execution**. A prefilled `mailto:` draft does not provide automatic sending.
 
 **Done when (if separately authorized):** tests cover invalid/rate-limited requests, duplicate sends, delivery failures and privacy; verified sending reaches an intended opted-in recipient.
+
+## ILL-07 — ProofTree-backed JD-to-résumé tailoring [CR-003 / Future; dependency-gated]
+
+**Intent:** In a private owner-only workflow, upload/paste a job description and produce the strongest truthful, human-approved résumé for that role using current ProofTree evidence, including documented professional experience, GitHub work, and attributable ChatGPT/Codex/HITL-SDLC planning, orchestration and verification.
+
+**Status:** **Not implemented, not authorized, not a PR #2 approval or apex-cutover blocker.** [Full CR-003 specification](./CHANGE-REQUESTS.md#cr-003--prooftree-evidence-verified-résumé-tailoring-from-a-job-description).
+
+**Prerequisites / gate 0**
+1. ProofTree separately provides an authenticated, read-only, versioned API or explicitly approved equivalent evidence-access contract. Verify live behavior; a private Markdown registry or roadmap does not imply an API exists.
+2. Owner approves current canonical résumé template/master history, private storage/retention rules, authorized ChatGPT/Codex evidence references/exports and contributor-attribution policy.
+3. Consent-based intake is private and secured server-side; no anonymous access to ProofTree, privileged GitHub sources, conversations or generated drafts.
+
+**Bounded v1**
+1. Accept one owner-uploaded PDF/DOCX JD or pasted job description; safely extract required/preferred criteria.
+2. Use authenticated ProofTree query results to assemble a traceable internal match matrix (`JD requirement → CL/SK/EXP/PRJ/EV IDs → evidence grade/status → approved wording → caveats/gaps`).
+3. Prioritize relevant, defensible capabilities and concrete outcomes. Explicitly distinguish personal work from agent-authored implementation and planning from deployed behavior; unknown contributions remain unknown.
+4. Generate one tailored résumé draft from approved source facts and the currently reviewed master. Show evidence mapping, unsupported requirements and conflicts beside the draft.
+5. Require the owner's explicit claim-level/content approval before exporting matching PDF and DOCX versions plus a private provenance manifest. Do not overwrite the public generic résumé or automatically send/apply anywhere.
+6. Verify with a sanitized fixture JD containing both supported and unsupported requirements; test missing API, restricted records, conflicting/old claims, malicious uploads and denied access.
+
+**Done when:** an authenticated owner can upload one JD, receive a reproducible evidence-backed match report, review every substantive claim and approve/export the two document formats, while unsupported claims are excluded/qualified and private evidence remains private.
+
+**Explicitly out of scope:** building the ProofTree API in this repository, bulk applications, automated recruiter contact/email, opening the tool to public visitors, invented achievements, unapproved direct ingestion of ChatGPT/Codex chat histories, publishing confidential project data, and further dashboard features.
+
+**Future iteration:** Additional sources or automatic evidence harvesting require their own consent, connector permissions, stable provenance and separately reviewed slice. Do not block the main-domain portfolio release on this request.
 
 ---
 

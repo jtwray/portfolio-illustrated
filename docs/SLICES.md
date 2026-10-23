@@ -87,6 +87,10 @@ No further implementation is implied.
 
 ## ILL-06A — Résumé formats and download [CR-002 / Proposed; awaiting implementation]
 
+![CR-002 résumé access — proposed UI](visuals/cr-002-resume-access.svg)
+
+[Design notes](visuals/README.md#cr-002--ill-06a--résumé-access)
+
 **Goal:** Keep the current résumé navigation target (`https://w2.tuckerwray.com/`) while providing a verified-current PDF that can be viewed in a new tab or downloaded.
 
 **Source:** [change request CR-002](./CHANGE-REQUESTS.md#cr-002--accessible-résumé-formats-without-losing-the-digital-résumé-link).
@@ -114,6 +118,10 @@ No further implementation is implied.
 **Done when (if separately authorized):** tests cover invalid/rate-limited requests, duplicate sends, delivery failures and privacy; verified sending reaches an intended opted-in recipient.
 
 ## ILL-07 — ProofTree-backed JD-to-résumé tailoring [CR-003 / Future; dependency-gated]
+
+![CR-003 ProofTree résumé generation — future workflow](visuals/cr-003-prooftree-resume-flow.svg)
+
+[Editable process diagram and security notes](visuals/README.md#cr-003--ill-07--prooftree-résumé-tailoring)
 
 **Intent:** In a private owner-only workflow, upload/paste a job description and produce the strongest truthful, human-approved résumé for that role using current ProofTree evidence, including documented professional experience, GitHub work, and attributable ChatGPT/Codex/HITL-SDLC planning, orchestration and verification.
 

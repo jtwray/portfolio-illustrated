@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 570" role="img" aria-labelledby="title desc">
+<title id="title">CR-002 — Résumé access options, conceptual wireframe</title>
+<desc id="desc">A proposed résumé menu that preserves the link to the existing W2 digital résumé, adds View PDF and Download PDF actions, and defers automated emailing. The résumé document has not been provided and these actions are not implemented.</desc>
+<rect width="1180" height="570" fill="#eee5d1"/>
+<rect x="26" y="24" width="1128" height="522" rx="24" fill="#faf4e8" stroke="#cbbfa6" stroke-width="2"/>
+<rect x="56" y="54" width="7" height="60" rx="3" fill="#a6412d"/>
+<text x="82" y="69" fill="#9a503b" font-size="15" font-family="ui-monospace, monospace" letter-spacing="2">CR-002 / ILL-06A • PROPOSED</text>
+<text x="82" y="109" fill="#132a2c" font-size="38" font-family="Georgia, serif" font-weight="bold">Choose how to view my résumé</text>
+<text x="58" y="153" fill="#52635e" font-size="17" font-family="Arial, sans-serif">One source of truth, multiple convenient formats. Preserve the existing digital résumé link.</text>
+<g transform="translate(55 195)">
+  <rect width="337" height="206" rx="16" fill="#0e3035"/>
+  <rect x="22" y="23" width="70" height="26" rx="13" fill="#265b5b"/>
+  <text x="57" y="41" fill="#f7eedb" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">KEEP</text>
+  <text x="23" y="91" fill="#f7eedb" font-size="26" font-weight="bold" font-family="Georgia, serif">Digital résumé</text>
+  <text x="23" y="124" fill="#d3dfd8" font-size="15" font-family="Arial, sans-serif">Existing W2 portfolio website</text>
+  <rect x="23" y="149" width="291" height="39" rx="9" fill="#f7eedb"/>
+  <text x="168" y="175" text-anchor="middle" fill="#0e3035" font-size="16" font-weight="bold" font-family="Arial, sans-serif">Open portfolio ↗</text>
+</g>
+<g transform="translate(421 195)">
+  <rect width="337" height="206" rx="16" fill="#ffffff" stroke="#cbbfa6" stroke-width="2"/>
+  <rect x="23" y="23" width="101" height="26" rx="13" fill="#f8e8d9"/>
+  <text x="74" y="41" fill="#a6412d" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">PROPOSED</text>
+  <text x="23" y="91" fill="#132a2c" font-size="26" font-weight="bold" font-family="Georgia, serif">View PDF</text>
+  <text x="23" y="124" fill="#52635e" font-size="15" font-family="Arial, sans-serif">Preview in a new browser tab</text>
+  <rect x="23" y="149" width="291" height="39" rx="9" fill="#f0e6d6" stroke="#bba889"/>
+  <text x="168" y="175" text-anchor="middle" fill="#132a2c" font-size="16" font-weight="bold" font-family="Arial, sans-serif">Open PDF ↗</text>
+</g>
+<g transform="translate(787 195)">
+  <rect width="337" height="206" rx="16" fill="#ffffff" stroke="#cbbfa6" stroke-width="2"/>
+  <rect x="23" y="23" width="101" height="26" rx="13" fill="#f8e8d9"/>
+  <text x="74" y="41" fill="#a6412d" font-size="12" font-family="Arial, sans-serif" text-anchor="middle">PROPOSED</text>
+  <text x="23" y="91" fill="#132a2c" font-size="26" font-weight="bold" font-family="Georgia, serif">Download PDF</text>
+  <text x="23" y="124" fill="#52635e" font-size="15" font-family="Arial, sans-serif">Save the approved current résumé</text>
+  <rect x="23" y="149" width="291" height="39" rx="9" fill="#f0e6d6" stroke="#bba889"/>
+  <text x="168" y="175" text-anchor="middle" fill="#132a2c" font-size="16" font-weight="bold" font-family="Arial, sans-serif">Download ↓</text>
+</g>
+<rect x="55" y="427" width="1069" height="58" rx="12" fill="#f4eee4" stroke="#b5aa97" stroke-dasharray="7 6"/>
+<text x="78" y="451" fill="#132a2c" font-size="16" font-weight="bold" font-family="Arial, sans-serif">Later: Share by email</text>
+<text x="78" y="473" fill="#52635e" font-size="14" font-family="Arial, sans-serif">Start with a user-controlled mail draft. Automatic delivery needs a separate security-reviewed slice (ILL-06B).</text>
+<text x="56" y="521" fill="#775943" font-size="13" font-family="ui-monospace, monospace">DESIGN ONLY • No PDF asset uploaded • No recipient emails sent</text>
+</svg>

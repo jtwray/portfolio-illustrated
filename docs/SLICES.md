@@ -71,6 +71,10 @@ No further implementation is implied.
 
 ## ILL-05 — Potty Weekend case study [CR-001 / Proposed; awaiting implementation]
 
+![CR-001 proposed Potty Weekend case-study card](visuals/cr-001-potty-weekend-card.svg)
+
+[Design concept](visuals/README.md#cr-001--ill-05--potty-weekend-portfolio-card)
+
 **Goal:** Add Potty Weekend as a fifth featured project and a concise, evidence-linked case study, without changing the separate app.
 
 **Source:** [change request CR-001](./CHANGE-REQUESTS.md#cr-001--feature-potty-weekend-as-a-shipped-product-case-study) · [live app](https://potty-weekend.netlify.app/) · [public code](https://github.com/jtwray/potty-weekend).

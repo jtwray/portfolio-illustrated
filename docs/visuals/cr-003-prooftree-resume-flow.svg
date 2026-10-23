@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 640" role="img" aria-labelledby="title desc">
+<title id="title">CR-003 — ProofTree evidence-verified résumé workflow</title>
+<desc id="desc">Future owner-only flow: Upload a job description; authenticate and query ProofTree, which can reference employment, GitHub and permission-approved ChatGPT/Codex evidence; map each job requirement to evidence; let the owner review and approve each claim; export a tailored PDF and DOCX. This is a proposal and neither the application nor ProofTree API is verified implemented.</desc>
+<rect width="1360" height="640" fill="#09262c"/>
+<rect x="25" y="22" width="1310" height="596" rx="25" fill="#0e3035" stroke="#44645d" stroke-width="2"/>
+<rect x="54" y="49" width="7" height="61" rx="3" fill="#edb591"/>
+<text x="80" y="65" fill="#edb591" font-size="15" font-family="ui-monospace, monospace" letter-spacing="2">CR-003 / ILL-07 • FUTURE CONCEPT</text>
+<text x="80" y="110" fill="#fff6e5" font-size="38" font-weight="bold" font-family="Georgia, serif">Job description → evidence → honest résumé</text>
+<rect x="1114" y="51" width="186" height="32" rx="16" fill="#244e50"/>
+<text x="1207" y="72" font-size="12" fill="#f6e8d4" text-anchor="middle" font-family="Arial, sans-serif">OWNER-ONLY ACCESS</text>
+<text x="56" y="155" fill="#c1d0c7" font-size="17" font-family="Arial, sans-serif">Every significant claim remains traceable to its source and passes human review before export.</text>
+<g font-family="Arial, sans-serif">
+  <rect x="56" y="204" width="232" height="178" rx="17" fill="#f9f2e4"/>
+  <text x="77" y="240" font-size="13" letter-spacing="1" fill="#a6412d">01 / INPUT</text>
+  <text x="77" y="278" font-size="24" font-weight="bold" fill="#132a2c">Upload JD</text>
+  <text x="77" y="312" font-size="15" fill="#52635e">PDF · DOCX · paste</text>
+  <text x="77" y="341" font-size="14" fill="#52635e">Extract requirements</text>
+  <path d="M290 289 H316" stroke="#edb591" stroke-width="4" stroke-linecap="round"/>
+  <path d="M308 282 L319 289 L308 296" fill="none" stroke="#edb591" stroke-width="4" stroke-linecap="round"/>
+  <rect x="328" y="204" width="232" height="178" rx="17" fill="#f9f2e4"/>
+  <text x="349" y="240" font-size="13" letter-spacing="1" fill="#a6412d">02 / RETRIEVE</text>
+  <text x="349" y="278" font-size="24" font-weight="bold" fill="#132a2c">ProofTree</text>
+  <text x="349" y="312" font-size="15" fill="#52635e">Authenticated query</text>
+  <text x="349" y="341" font-size="14" fill="#52635e">Read-only claim evidence</text>
+  <path d="M562 289 H588" stroke="#edb591" stroke-width="4" stroke-linecap="round"/>
+  <path d="M580 282 L591 289 L580 296" fill="none" stroke="#edb591" stroke-width="4" stroke-linecap="round"/>
+  <rect x="600" y="204" width="232" height="178" rx="17" fill="#f9f2e4"/>
+  <text x="621" y="240" font-size="13" letter-spacing="1" fill="#a6412d">03 / MATCH</text>
+  <text x="621" y="278" font-size="24" font-weight="bold" fill="#132a2c">Evidence trace</text>
+  <text x="621" y="312" font-size="15" fill="#52635e">Requirement → claim IDs</text>
+  <text x="621" y="341" font-size="14" fill="#52635e">Identify unsupported gaps</text>
+  <path d="M834 289 H860" stroke="#edb591" stroke-width="4" stroke-linecap="round"/>
+  <path d="M852 282 L863 289 L852 296" fill="none" stroke="#edb591" stroke-width="4" stroke-linecap="round"/>
+  <rect x="872" y="204" width="204" height="178" rx="17" fill="#e5ebdf"/>
+  <text x="893" y="240" font-size="13" letter-spacing="1" fill="#326761">04 / REVIEW</text>
+  <text x="893" y="278" font-size="23" font-weight="bold" fill="#132a2c">Human gate</text>
+  <text x="893" y="312" font-size="15" fill="#52635e">Approve or revise</text>
+  <text x="893" y="341" font-size="14" fill="#52635e">Claim by claim</text>
+  <path d="M1078 289 H1104" stroke="#edb591" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1096 282 L1107 289 L1096 296" fill="none" stroke="#edb591" stroke-width="4" stroke-linecap="round"/>
+  <rect x="1116" y="204" width="188" height="178" rx="17" fill="#eac7a5"/>
+  <text x="1137" y="240" font-size="13" letter-spacing="1" fill="#7c3424">05 / OUTPUT</text>
+  <text x="1137" y="278" font-size="22" font-weight="bold" fill="#132a2c">Tailored CV</text>
+  <text x="1137" y="312" font-size="15" fill="#513c2f">PDF + DOCX</text>
+  <text x="1137" y="341" font-size="13" fill="#513c2f">Private audit trail</text>
+</g>
+<rect x="60" y="417" width="1218" height="109" rx="17" fill="#173b40" stroke="#4c706a" stroke-width="1.5"/>
+<text x="82" y="444" fill="#edb591" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Evidence sources (only approved, attributable records)</text>
+<g font-family="Arial, sans-serif" font-size="16" fill="#fff6e5" text-anchor="middle">
+  <rect x="84" y="461" width="286" height="45" rx="10" fill="#2e5456"/>
+  <text x="227" y="490">Professional experience</text>
+  <rect x="395" y="461" width="286" height="45" rx="10" fill="#2e5456"/>
+  <text x="538" y="490">GitHub / tests / deploys</text>
+  <rect x="706" y="461" width="546" height="45" rx="10" fill="#2e5456"/>
+  <text x="979" y="490">ChatGPT · Codex · HITL-SDLC (with attribution)</text>
+</g>
+<text x="62" y="560" fill="#eec7a7" font-size="15" font-family="ui-monospace, monospace">NOT IMPLEMENTED • Requires verified ProofTree API + private auth • No fabricated experience or outcomes</text>
+<text x="62" y="587" fill="#b2c9c4" font-size="13" font-family="Arial, sans-serif">Evidence level ≠ skill score  •  Human/agent contributions distinguished  •  Unsupported JD requirements stay visible</text>
+</svg>

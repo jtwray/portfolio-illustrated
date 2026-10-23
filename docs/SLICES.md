@@ -1,6 +1,6 @@
 # Illustrated Portfolio — Slices
 
-_Last reviewed: 2026-10-19_
+_Last reviewed: 2026-10-23 (new requests ILL-05 and ILL-06; earlier slices retain their recorded status)_
 
 ## Slice operating rules
 
@@ -68,6 +68,50 @@ No further implementation is implied.
 **Done when:** a small recorded QA checklist demonstrates no broken outbound links, misleading claims, or contact regressions.
 
 **Out of scope:** portfolio overhaul, a second framework migration, new sales pipelines, n8n workflows, RAG/avatars.
+
+## ILL-05 — Potty Weekend case study [CR-001 / Proposed; awaiting implementation]
+
+**Goal:** Add Potty Weekend as a fifth featured project and a concise, evidence-linked case study, without changing the separate app.
+
+**Source:** [change request CR-001](./CHANGE-REQUESTS.md#cr-001--feature-potty-weekend-as-a-shipped-product-case-study) · [live app](https://potty-weekend.netlify.app/) · [public code](https://github.com/jtwray/potty-weekend).
+
+**Scope**
+1. Add fifth `product` card and update filter count without breaking existing filters or cards.
+2. Add `work/potty-weekend.html` with problem, implementation and verification; link to live app and source.
+3. Present IndexedDB/local-first privacy, optional images, timer and experiment **without** claims of automatic push alerts, predictive AI, validated child outcomes, or verified real-phone usage.
+4. Verify both links logged out, responsive layout and keyboard behavior.
+
+**Done when:** preview and linked references work; copy distinguishes real implementation from still-unverified mobile and real-use outcomes; no personal family records or images exposed.
+
+**Out of scope:** modifying the Potty Weekend repo, adding app features, launching a product business, displacing another portfolio item, or touching DNS.
+
+## ILL-06A — Résumé formats and download [CR-002 / Proposed; awaiting implementation]
+
+**Goal:** Keep the current résumé navigation target (`https://w2.tuckerwray.com/`) while providing a verified-current PDF that can be viewed in a new tab or downloaded.
+
+**Source:** [change request CR-002](./CHANGE-REQUESTS.md#cr-002--accessible-résumé-formats-without-losing-the-digital-résumé-link).
+
+**Dependencies:** obtain and review the canonical current résumé PDF; optionally an in-sync Word file. Agree a documented update process so public downloads do not become stale.
+
+**Scope**
+1. **Do not replace the existing résumé nav link**, including the mobile hamburger destination.
+2. Add an accessible, responsive PDF action area. Links clearly state digital résumé, view PDF, and download PDF.
+3. Serve an approved public PDF at a stable path; verify browser new-tab behavior, actual download, readable content, and public access.
+4. Optional user-initiated **Share by email** may prefill an editable mail-client draft with public résumé links, but cannot pretend to send/attach automatically.
+
+**Done when:** desktop/mobile navigation and all PDF actions are verified; original W2 link remains intact; no automatic-email service or unreviewed document published.
+
+**Out of scope:** rewriting employment history without evidence, updating W2 itself, mail automation, login/account collection, or replacing Netlify DNS.
+
+## ILL-06B — Email a résumé to entered recipient [CR-002 / Deferred; separate authorization required]
+
+**Goal:** Consider an optional dynamic button (`Email résumé to name@example.com`) only if a recruiter-use case justifies reliable automatic delivery.
+
+**Scope gate:** server-side fixed-PDF delivery, input validation, explicit send, anti-abuse/rate limiting, safe provider configuration, and honest success/error feedback; address privacy and consent. No generic relay, bulk sending, arbitrary attachments, or collection of unnecessary recipient data.
+
+**Status:** not required for the portfolio MVP and **not approved for execution**. A prefilled `mailto:` draft does not provide automatic sending.
+
+**Done when (if separately authorized):** tests cover invalid/rate-limited requests, duplicate sends, delivery failures and privacy; verified sending reaches an intended opted-in recipient.
 
 ---
 

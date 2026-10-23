@@ -1,6 +1,6 @@
 # Illustrated portfolio — main-domain promotion checklist
 
-_Last reviewed: 2026-10-22. This is a **feature-branch preparation plan**, not a production cutover._
+_Last reviewed: 2026-10-23. This is a **feature-branch preparation plan**, not a production cutover._
 
 ## Candidate and scope
 
@@ -18,6 +18,15 @@ _Last reviewed: 2026-10-22. This is a **feature-branch preparation plan**, not a
 - [x] Replace WAMIF's misleading Next.js tag and weak public-source shortcut with a public-safe project overview.
 - [x] Add prominent hiring/résumé and small-business routes.
 - [x] Preserve the existing Netlify `reachout` form and thank-you page (no form markup changes).
+
+## Outstanding pre-approval change requests
+
+- [ ] **CR-001 (ILL-05)** — review/implement a fifth Potty Weekend project card and accurate case study. Evidence is in the public app/repository; real-phone outcomes remain unverified.
+- [ ] **CR-002 (ILL-06A)** — retain the existing W2 résumé navigation and add a verified-current PDF view/download path. Document ownership/versioning and validate desktop/mobile behavior.
+- [ ] Decide explicitly whether either requested change is required before the current PR merges, or will be implemented as its own reviewed successor `feat/*` PR. **No request is completed simply by adding documentation.**
+- [ ] **ILL-06B automatic email** remains deferred; do not add a mail-sending endpoint as a prerequisite to the portfolio migration.
+
+See [full change requests](./CHANGE-REQUESTS.md), [roadmap](./ROADMAP.md), and [slice gates](./SLICES.md).
 
 ## Verification before merging
 

@@ -7,6 +7,10 @@ _Last reviewed: 2026-10-23. Source of truth for pre-approval scope review. This 
 
 ## CR-001 — Feature Potty Weekend as a shipped product case study
 
+![CR-001 Potty Weekend project-card concept — not implemented](visuals/cr-001-potty-weekend-card.svg)
+
+[Scalable SVG](visuals/cr-001-potty-weekend-card.svg) · [Design asset index](visuals/README.md)
+
 **Requested by:** portfolio owner, before approving PR #2.  
 **Status:** Requested / specification prepared; **implementation not started**.  
 **Proposed slice:** ILL-05 (portfolio only; do not modify Potty Weekend application).  

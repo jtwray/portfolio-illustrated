@@ -1,6 +1,6 @@
 # Illustrated Portfolio — Roadmap
 
-_Last reviewed: 2026-10-19_
+_Last reviewed: 2026-10-23 (change-request intake; earlier evidence status retained as originally recorded)_
 
 ## Mission
 
@@ -19,6 +19,11 @@ Present Tucker Wray's software engineering and small-business systems work in an
 | M2 — Curated proof checkpoint | **Started — evidence packet pending** | Tucker confirmed ProofTree has just started (2026-10-19); assemble the smallest verified, public-safe WAMIF evidence packet without waiting for the entire registry | ILL-02 |
 | M3 — WAMIF link and claim correction | **Blocked by minimal evidence packet and destination review** | Select public-safe, logged-out-accessible project destination; correct both image/title links and technology/status claims | ILL-03 · [Issue #1](https://github.com/jtwray/portfolio-illustrated/issues/1) |
 | M4 — Portfolio release QA and evidence hygiene | **Proposed** | Confirm remaining project links, copy, accessibility, mobile, outbound CTA, contact, and proof references without regressions | ILL-04 |
+| M5 — Potty Weekend portfolio proof | **CR-001 requested / not implemented** | Fifth card and honest case study linking shipped app, public source and limitations; independent preview review | ILL-05 · [Change requests](./CHANGE-REQUESTS.md#cr-001--feature-potty-weekend-as-a-shipped-product-case-study) |
+| M6 — Résumé file availability | **CR-002 requested / not implemented** | Preserve the existing W2 digital résumé link; add approved-current PDF open/download actions and accessible navigation | ILL-06A · [Change requests](./CHANGE-REQUESTS.md#cr-002--accessible-résumé-formats-without-losing-the-digital-résumé-link) |
+| M7 — Recipient email option | **Deferred / separate approval** | Validate actual demand, delivery architecture, consent, anti-abuse and privacy before enabling automatic sending | ILL-06B |
+
+**PR #2 review decision (2026-10-23):** The portfolio owner requested two documented, **pre-approval** change requests, CR-001 Potty Weekend and CR-002 résumé access, on `feat/illustrated-main-domain-readiness`. Both are proposed work, **not** completed by this documentation update. CR-002's automatic-email phase ILL-06B is deferred. See [change requests](./CHANGE-REQUESTS.md) and [slices](./SLICES.md). The existing navigation link to `https://w2.tuckerwray.com/` is preserved. This does not authorize merge or apex promotion.
 
 **ProofTree checkpoint (2026-10-19):** Tucker says the curated proof library was **just started**. The canonical [ProofTree repository](https://github.com/jtwray/prooftree) currently exists but has no committed files. This is a repository observation, **not** a judgment that no evidence exists in WAMIF or other projects. The portfolio needs only a minimal independently verified proof packet for ILL-03; ProofTree itself does not have to be finished.
 

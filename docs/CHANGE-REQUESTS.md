@@ -101,6 +101,61 @@ Generating a résumé from incomplete evidence; automatic email delivery; CRM in
 
 ---
 
+## CR-003 — ProofTree evidence-verified résumé tailoring from a job description
+
+**Requested by:** portfolio owner on 2026-10-23.  
+**Status:** **Future backlog request only; not approved for execution and not required before PR #2 approval/cutover.**  
+**Proposed slice:** ILL-07 (private, owner-operated capability; separate reviewed `feat/*` implementation when prerequisites are satisfied).  
+**Dependency:** [ProofTree](https://github.com/jtwray/prooftree) must expose a reviewed, authenticated, read-only claim/evidence query contract. Its current documentation establishes a **private version-controlled record registry**, not an already verified live API. ProofTree owns its own API roadmap and claim-approval logic; this portfolio repository will integrate, not recreate or bypass them.
+
+### User story and outcome
+
+As the portfolio owner/job applicant, I can upload or paste a job description (JD), compare its actual must-have and nice-to-have requirements with my current documented competencies, review a **claim-by-claim evidence trace**, and produce a compelling role-specific résumé grounded in the strongest accurate and verifiable evidence available at generation time.
+
+The optimizer seeks the **best truthful alignment**, not a maximal keyword match or a fabricated fit score. Unsupported JD requirements are explicitly exposed as gaps rather than invented as experience.
+
+### Evidence scope and attribution
+
+- **Professional history:** employer, role, dates, responsibilities and results from approved ProofTree `EXP-*` and `CL-*` records; distinguish personally reported employment history from independently corroborated duties.
+- **Engineering artifacts:** scoped `SK-*`, `PRJ-*`, `EV-*` and `CL-*` records linked to actual GitHub repositories, immutable commits, PR diffs, tests, CI, deployments, and production observations where genuinely available.
+- **AI-assisted engineering and orchestration:** user-approved evidence derived from ChatGPT discussions, Codex agent tasks, planning briefs, scope/acceptance decisions, human-in-the-loop (HITL) review, bug triage, prompt/task orchestration, implementation, and independently observed outcomes. Distinguish **designed**, **directed**, **reviewed**, **coded**, **tested**, **deployed**, and **operated**. Conversation plans and agent completion claims never prove implemented or production functionality by themselves.
+- **Source permissions:** ChatGPT/Codex records must be accessible through explicitly consented, supported access or owner-curated evidence references/exports. No assumption that a public website can browse the user's chats, private GitHub repos, or connected tools. No ingestion of raw private conversations, employer code, client PII, secrets, or personal medical data into public assets.
+- **ProofTree semantics:** use its `E0–E5` evidence classification and claim review state (`approved_for_scope`, `partially_supported`, etc.) **claim by claim**, with contribution, date, environment, limitations, conflict/supersession and access noted. Evidence levels describe observed proof **types**, not global competence scores.
+
+### Proposed minimum workflow (ILL-07)
+
+1. **Private owner-only entry:** authenticated screen/workspace for JD PDF/DOCX upload or pasted text, optional target role label, current approved master résumé version, and explicit consent for necessary processing. Do **not** expose JD parsing or ProofTree querying to anonymous portfolio visitors.
+2. **Extract JD requirements:** identify skill, responsibility, seniority, domain and outcome requirements; separate required vs preferred and preserve original JD passages for traceability. Avoid treating boilerplate as requirements.
+3. **ProofTree read-only retrieval:** query reviewed private records through an authenticated server-side integration, returning permitted claim text, stable record IDs, links, proof dates, human-vs-agent contribution and caveats. Define/version the API contract in ProofTree first; fail closed when auth/API/evidence is unavailable rather than generating fabricated substitutes.
+4. **Build an internal alignment matrix:** `JD requirement → candidate supported claim → CL/SK/EXP/PRJ/EV IDs → allowed wording → support status → gaps`. Rank relevant evidence for this JD, favor direct support and recent relevant evidence; never hide conflicting or outdated evidence. Separate fully supported, supported with qualification, self-reported, and unsupported requirements.
+5. **Generate a reviewable tailored résumé draft:** start from the owner-approved canonical résumé template and accurate immutable profile facts, prioritize relevant truthful bullets/keywords, preserve correct chronology/titles/education, and include agent-orchestration/HITL-SDLC capabilities only with accurate contribution language. No invented employers, tenures, certifications, metrics, production claims, personally coded lines or unsupported technologies.
+6. **Human approval gate:** show generated résumé **alongside** a private evidence-mapping report and warnings/unsupported requirements; permit edit, reject, annotate or omit a claim before any approved résumé export.
+7. **Export after approval:** downloadable accessible PDF and editable DOCX, sharing the same approved content, plus a private versioned provenance manifest (JD identifier/hash if practical, master résumé version, ProofTree snapshot/version, claim IDs, export date). Do not include internal private evidence references or sensitive chat data in public résumé exports by default.
+8. **Manual reuse:** separate résumé per JD; preserve only consented, minimal private job/draft history, permit deletion, and ensure canonical generic public résumé files are never silently replaced by JD-specific versions.
+
+### Acceptance criteria
+
+- [ ] Authentication and access controls prevent public users from uploading JDs to private generation or querying ProofTree; ProofTree auth/API contract reviewed and verified without client-exposed secrets.
+- [ ] Uploaded PDF/DOCX or pasted JD is parsed; original must-have/nice-to-have requirements are retained and checkable. Reject unsupported/malicious files safely; enforce file size/type limits and retention policy.
+- [ ] A realistic JD maps to verified source record IDs, approved/scope-limited wording, contributor attribution, dates and links, with reproducible ranking notes and explicit evidence gaps.
+- [ ] Tests demonstrate **no invented employment, dates, metrics, certifications, stack use or outcomes** even when the JD strongly requests an unsupported capability.
+- [ ] ChatGPT/Codex evidence is only considered when imported/accessible with consent and attributable to actual human contribution; demonstrate that an agent suggestion alone is *not* resume proof.
+- [ ] Contradictory, superseded, private, unreviewed and self-reported records are appropriately qualified or excluded; unavailable ProofTree service fails closed with a useful error.
+- [ ] A reviewer can trace **every substantive generated claim** to a valid approved record or appropriately qualified self-report; gaps and caveats are visible before approval.
+- [ ] No artifact is labeled approved until explicit owner signoff. After signoff, PDF/DOCX output preserves the approved text and is downloadable; private evidence mapping is not accidentally published.
+- [ ] One end-to-end test uses a sanitized JD fixture with both supported and unsupported requirements; another tests missing/private evidence, integration outage and unauthorized requests.
+
+### Out of scope / protection of existing work
+
+- No auto-application, auto-bidding, outbound résumé email, bulk recruiter outreach, submission to job boards, or public anonymous generation.
+- No automatic creation/promotion of ProofTree evidence from ChatGPT chats, Codex transcripts, memory summaries or unverifiable agent reports.
+- No public exposure of private ProofTree data, protected employer/client documents, credentials, full private chats, or generative model context.
+- No ProofTree database/API implementation inside the portfolio repo; API work is governed separately by ProofTree.
+- No change to ILL-06A's existing downloadable **generic** résumé or the navigation link to the W2 résumé site.
+- No impact on the current PR #2 acceptance gate or apex cutover timeline: **ILL-07 is future work after dependency readiness and separately reviewed scope**.
+
+---
+
 ## PR #2 approval and slice boundaries
 
 - CR-001 and CR-002 are **requested amendments**, not grounds to claim the draft PR already contains them.

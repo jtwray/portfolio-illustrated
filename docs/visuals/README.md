@@ -2,6 +2,14 @@
 
 These are **version-controlled conceptual design assets**, not screenshots of live functionality. They capture the useful visual intent of the planning conversation in GitHub-reviewable form.
 
+## CR-001 / ILL-05 — Potty Weekend portfolio card
+
+![Potty Weekend project-card concept](./cr-001-potty-weekend-card.svg)
+
+- [Open scalable SVG](./cr-001-potty-weekend-card.svg)
+- [Source and acceptance criteria](../CHANGE-REQUESTS.md#cr-001--feature-potty-weekend-as-a-shipped-product-case-study)
+- Status: **illustrative case-study design**, not a real screenshot or an implemented portfolio card. The live [Potty Weekend app](https://potty-weekend.netlify.app/) and [source](https://github.com/jtwray/potty-weekend) exist separately. Mobile QA and real-use claims are limited.
+
 ## CR-002 / ILL-06A — résumé access
 
 ![Résumé access wireframe](./cr-002-resume-access.svg)

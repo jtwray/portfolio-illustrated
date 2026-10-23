@@ -1,0 +1,110 @@
+[
+  {
+    "project": "wamif",
+    "file": "assets/screenshots/portfolio-wamif-route.jpg",
+    "type": "browser screenshot",
+    "title": "Individual Life Route",
+    "caption": "Live synthetic sample: route diagram, current event, and chronological event rail.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Live app, synthetic or empty session"
+  },
+  {
+    "project": "wamif",
+    "file": "assets/screenshots/portfolio-wamif-detail.jpg",
+    "type": "browser screenshot",
+    "title": "Explain the selected event",
+    "caption": "Live synthetic sample: stepping to a marriage and opening its event/provenance detail.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Live app, synthetic or empty session"
+  },
+  {
+    "project": "wamif",
+    "file": "assets/screenshots/portfolio-wamif-lineage.jpg",
+    "type": "browser screenshot",
+    "title": "Independent routes on shared chronology",
+    "caption": "Live synthetic sample: an opened four-person lineage after stepping calendar boundaries. This is the SVG renderer, not a geographic basemap.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Live app, synthetic or empty session"
+  },
+  {
+    "project": "dashboarda",
+    "file": "assets/screenshots/portfolio-dashboarda-pr.jpg",
+    "type": "browser screenshot",
+    "title": "SignalDesk change under review",
+    "caption": "Public draft PR #2. Its body contains project-reported receipts; the screenshot does not independently reproduce those runs.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Public-source capture"
+  },
+  {
+    "project": "dashboarda",
+    "file": "assets/screenshots/portfolio-dashboarda-state.jpg",
+    "type": "browser screenshot",
+    "title": "Durable state and stable identity",
+    "caption": "Public state-handler source; source evidence rather than a runtime screenshot.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Public-source capture"
+  },
+  {
+    "project": "dashboarda",
+    "file": "assets/screenshots/portfolio-dashboarda-repository.jpg",
+    "type": "browser screenshot",
+    "title": "Small apps, one repository",
+    "caption": "Public repository showing the independently deployable dashboard apps.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Public-source capture"
+  },
+  {
+    "project": "canary",
+    "file": "assets/screenshots/portfolio-canary-overview.jpg",
+    "type": "browser screenshot",
+    "title": "The diagnostic contract",
+    "caption": "Public README explaining scope, setup, and redacted local reports.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Public-source capture"
+  },
+  {
+    "project": "canary",
+    "file": "assets/screenshots/portfolio-canary-scheduling.jpg",
+    "type": "browser screenshot",
+    "title": "Scheduling boundaries",
+    "caption": "Public scheduling documentation distinguishing planning from explicit installation/removal.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Public-source capture"
+  },
+  {
+    "project": "canary",
+    "file": "assets/screenshots/portfolio-canary-classification.jpg",
+    "type": "browser screenshot",
+    "title": "Classification and persistence",
+    "caption": "Public state.js source. The repository is compact/minified; use the diagram as the primary visual and this capture as a secondary receipt.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Public-source capture"
+  },
+  {
+    "project": "potty",
+    "file": "assets/screenshots/portfolio-potty-overview.jpg",
+    "type": "browser screenshot",
+    "title": "Start with a calm reminder",
+    "caption": "Live empty-session reminder view; no child data.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Live app, synthetic or empty session"
+  },
+  {
+    "project": "potty",
+    "file": "assets/screenshots/portfolio-potty-entry.jpg",
+    "type": "browser screenshot",
+    "title": "Fast attempt entry",
+    "caption": "Live empty-session interface while exploring an outcome option; no attempt was saved.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Live app, synthetic or empty session"
+  },
+  {
+    "project": "potty",
+    "file": "assets/screenshots/portfolio-potty-history.jpg",
+    "type": "browser screenshot",
+    "title": "History and data boundaries",
+    "caption": "Live empty-session summary/log, including the local-storage and export explanation.",
+    "captured_on": "2026-10-23",
+    "publication_note": "Live app, synthetic or empty session"
+  }
+]

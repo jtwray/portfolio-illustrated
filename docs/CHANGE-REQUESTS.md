@@ -51,6 +51,11 @@ Potty Weekend feature development, marketing launch, app-store packaging, PWA/pu
 
 ## CR-002 — Accessible résumé formats without losing the digital résumé link
 
+![CR-002 résumé access wireframe — conceptual design, not implemented](visuals/cr-002-resume-access.svg)
+
+[Scalable SVG](visuals/cr-002-resume-access.svg) · [Design asset index](visuals/README.md)
+
+
 **Requested by:** portfolio owner, before approving PR #2.  
 **Status:** Requested / specification prepared; **implementation not started**.  
 **Proposed slice:** ILL-06A (public document access), with optional ILL-06B (email delivery) **deferred pending evidence and separate approval**.
@@ -102,6 +107,11 @@ Generating a résumé from incomplete evidence; automatic email delivery; CRM in
 ---
 
 ## CR-003 — ProofTree evidence-verified résumé tailoring from a job description
+
+![CR-003 private JD-to-evidence-to-approved-résumé process — future design, not implemented](visuals/cr-003-prooftree-resume-flow.svg)
+
+[Scalable SVG](visuals/cr-003-prooftree-resume-flow.svg) · [Editable Mermaid diagram and design notes](visuals/README.md#cr-003--ill-07--prooftree-résumé-tailoring)
+
 
 **Requested by:** portfolio owner on 2026-10-23.  
 **Status:** **Future backlog request only; not approved for execution and not required before PR #2 approval/cutover.**  

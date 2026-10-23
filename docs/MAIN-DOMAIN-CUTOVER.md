@@ -19,6 +19,8 @@ _Last reviewed: 2026-10-23. This is a **feature-branch preparation plan**, not a
 - [x] Add prominent hiring/résumé and small-business routes.
 - [x] Preserve the existing Netlify `reachout` form and thank-you page (no form markup changes).
 
+[Visual review index: résumé-access and ProofTree workflow concepts](./visuals/README.md). These are design specifications, not evidence of production UI.
+
 ## Outstanding pre-approval change requests
 
 - [ ] **CR-001 (ILL-05)** — review/implement a fifth Potty Weekend project card and accurate case study. Evidence is in the public app/repository; real-phone outcomes remain unverified.

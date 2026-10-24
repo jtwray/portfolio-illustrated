@@ -1,0 +1,10 @@
+flowchart TD
+  n0["Explicit diagnostic run: Manual CLI or scheduler adapter"]
+  n1["Allowlisted probes: Runtime, Git, API, HTTPS, loopback"]
+  n2["Collect bounded outcomes: Pass / fail / skipped / inconclusive"]
+  n3["Redact and compare: Classify against prior local state"]
+  n4["Human review: Read report; approve durable guidance"]
+  n0 --> n1
+  n1 --> n2
+  n2 --> n3
+  n3 --> n4

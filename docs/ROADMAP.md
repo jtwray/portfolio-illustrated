@@ -41,3 +41,33 @@ Only **one implementation slice** should be active at a time. Work marked *Propo
 - No changes to `tuckerwray.com`, `www`, existing archive arrangements, or Zoho MX/SPF/DKIM/DMARC.
 
 See [slices](./SLICES.md) for scope, dependencies, and acceptance criteria.
+
+## October 23 media workstream
+
+The existing ILL-00–04 roadmap remains in place. Its October 19 status statements
+are historical and have not been revalidated by this planning update. Use the
+[project brain](PROJECT_BRAIN.md) to reconcile them before implementation.
+
+| Step | State | Outcome | Slice |
+| --- | --- | --- | --- |
+| Recoverable media baseline | Preserved; draft PR #3 | Original 49-file package at `59081a1`; browser review still pending | [Checkpoint](PROJECT_MEDIA_REVIEW.md) |
+| Dashboarda captures | Planned; next dispatch candidate | Reviewed PIN prompt and useful public-safe dashboard evidence | ILL-05 |
+| Import Canary media | Waiting on Canary-owned CAN-01 | Approved images and captions with source revision and observed outcome | ILL-06 |
+| Editorial/media acceptance | Planned | Four revised stories and a review package with accurate contribution/evidence wording | ILL-07 |
+| Illustrated case-study integration | Planned | Four accessible case-study destinations and working project cards | ILL-08 |
+| Release acceptance | Planned | Browser, mobile, keyboard, contact and resume checks on the reviewed commit | ILL-04 |
+
+Sequence: ILL-05 → ILL-06 → ILL-07 → ILL-08 → ILL-04, with one implementation
+slice active. Planning this sequence does not dispatch agents or authorize release.
+Prior ILL-02/03 criteria may be satisfied by later evidence/integration work only
+when explicitly mapped and verified; they are not automatically closed.
+
+### Canary project dependency
+
+Canary CLI execution/capture work and later status/history, Check now and guided
+re-authentication are owned by `jtwray/agent-toolchain-canary`; their roadmap and
+temporary-agent assignments live with that project. The transfer is recorded in
+[Canary draft PR #1](https://github.com/jtwray/agent-toolchain-canary/pull/1).
+
+Portfolio ILL-06 only imports the approved CAN-01 media export. CAN-02–04 do not block
+this workstream. Do not duplicate their implementation contracts in this repository.

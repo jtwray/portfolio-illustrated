@@ -1,0 +1,11 @@
+flowchart TD
+  n0["An agent task fails: The failure may be in several layers"]
+  n1["Check environment: Runtime, CLI, Git, network"]
+  n2["Check practical access: API/repository access vs auth advisory"]
+  n3["Repeat manual diagnosis: Compare today with the previous fault"]
+  n4["Resolve with care: Avoid sensitive logs and false certainty"]
+  n0 --> n1
+  n0 --> n2
+  n1 --> n3
+  n2 --> n3
+  n3 --> n4

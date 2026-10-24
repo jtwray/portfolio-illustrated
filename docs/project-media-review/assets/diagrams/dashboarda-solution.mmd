@@ -1,0 +1,11 @@
+flowchart TD
+  n0["Dashboarda state: Stable keys + first/last-seen history"]
+  n1["Dashboard view: Filter records and inspect sync metadata"]
+  n2["SignalDesk extension: Map research → diff → Airtable upsert"]
+  n3["Keep ownership explicit: Research fields vs human task state"]
+  n4["Inspect the outcome: Run history and sanitized sync status"]
+  n0 --> n1
+  n0 --> n2
+  n1 --> n3
+  n2 --> n3
+  n3 --> n4

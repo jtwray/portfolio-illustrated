@@ -1,0 +1,11 @@
+flowchart TD
+  n0["Local GEDCOM input: Parse → normalize people and events"]
+  n1["Individual life route: Resolve places → build one route"]
+  n2["Recorded lineage path: Retain separate routes per person"]
+  n3["Explore chronology: Step boundaries and inspect events"]
+  n4["Explain the evidence: Date intervals, location provenance, gaps"]
+  n0 --> n1
+  n0 --> n2
+  n1 --> n3
+  n2 --> n3
+  n3 --> n4

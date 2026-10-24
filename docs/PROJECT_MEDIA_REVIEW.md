@@ -35,3 +35,18 @@ verification notes remain intact.
 
 Preserve this baseline commit before media revisions. Use subsequent commits
 and the established feature-branch review process for improvements.
+
+## Brain and dispatch plan — October 23, 2026
+
+Use [PROJECT_BRAIN.md](PROJECT_BRAIN.md) as the restart point, the
+[roadmap](ROADMAP.md#october-23-media-workstream) for sequence, and
+[SLICES.md](SLICES.md#october-23-media-slice-contracts) for ILL-05–08 contracts.
+This planning setup does not dispatch implementation agents or accept the draft media.
+
+## Ownership correction — October 23, 2026
+
+Tucker requested that Canary work move to its own project. Canary owns diagnostic
+runs/captures, status/history, Check now and re-authentication planning; see
+[Canary draft PR #1](https://github.com/jtwray/agent-toolchain-canary/pull/1).
+Portfolio ILL-06 only requests/imports approved media. This supersedes any earlier
+suggestion that the portfolio brain should direct Canary execution or product work.

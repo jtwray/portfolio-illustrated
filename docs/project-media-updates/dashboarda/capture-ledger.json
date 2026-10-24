@@ -1,0 +1,51 @@
+{
+  "slice": "ILL-05 Dashboarda screenshots",
+  "status": "blocked_no_images",
+  "captured_on": null,
+  "captures": [],
+  "source_url": "https://dashboarda-job-rates.netlify.app/",
+  "source_discovery": "Connected Netlify project lookup; HTTP URL redirected to HTTPS in browser",
+  "observation_date": "2026-10-24",
+  "environment": "Cloud Chrome, cdp; native JavaScript prompt active; viewport not measured",
+  "authentication": {
+    "dashboarda_ping_attempts": 1,
+    "dashboarda_ping_result": "cancelled without returned result; unknown",
+    "pin_submissions": 0,
+    "alternative_authentication_attempts": 0
+  },
+  "attempts": [
+    {
+      "filename": null,
+      "kind": "live empty PIN",
+      "status": "native prompt observed empty; screenshot unavailable",
+      "live_versus_demonstration": "live prompt observed, no captured pixels",
+      "caption_candidate": "Dashboarda Job + Rate Scan requests a PIN before loading private dashboard state.",
+      "alt_text_candidate": "Native browser dialog labeled Dashboard PIN with an empty response field.",
+      "privacy_treatment": "No PIN entered. No private content loaded. Caption/alt pending actual image verification."
+    },
+    {
+      "filename": null,
+      "kind": "dashboard content",
+      "fixture": "fixture.html",
+      "status": "render blocked by local-file URL security policy; no screenshot",
+      "live_versus_demonstration": "demonstration only",
+      "caption_candidate": "Isolated Dashboarda renderer with three synthetic job records; not live vacancies or observed production state.",
+      "alt_text_candidate": "Dashboarda Job + Rate Scan with a demonstration banner, summary cards, and three synthetic employer and role rows.",
+      "privacy_treatment": "Invented data, example.com links, task ID removed, network blocked by CSP; pixels not inspected."
+    },
+    {
+      "filename": null,
+      "kind": "PIN facsimile candidate",
+      "fixture": "fixture-pin.html",
+      "status": "unrendered candidate; not authentic native prompt evidence",
+      "live_versus_demonstration": "DOM facsimile only",
+      "caption_candidate": "Capture-only DOM facsimile of an empty PIN prompt; the live app uses a native browser dialog.",
+      "alt_text_candidate": "Labeled demonstration facsimile with Dashboard PIN heading and an empty password field.",
+      "privacy_treatment": "No credentials or production records; pixels not inspected."
+    }
+  ],
+  "fixture_sha256": {
+    "fixture.html": "1a36e5ec008ee1b117ba2ddf53b00ce1aeb5ec09de523a223569e54f4316219d",
+    "fixture-pin.html": "b24387e8027faca0e6c2a0da7f96ca74629dee8a32eb8bacf2c95798f4f0c24a"
+  }
+}

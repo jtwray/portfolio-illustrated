@@ -49,6 +49,13 @@ Desktop and 390-pixel mobile screenshots were inspected for hierarchy, legibilit
 navigation, controls, and table behavior. Temporary viewport and script-execution
 overrides were restored after verification.
 
+## Automated preview review
+
+The initial AccessLint review identified a mismatch between the wordmark's visible
+text and its overriding accessible name. The override was removed from both
+portfolio and tools-page wordmarks so the visible link text supplies the name.
+The form markup and dashboard behavior are unchanged by that correction.
+
 ## Review steps
 
 1. Open /tools/ in the PR preview directly and refresh it.

@@ -1,6 +1,6 @@
 # Illustrated Portfolio — Roadmap
 
-_Last reviewed: 2026-10-19_
+_Last reviewed: 2026-10-27 (contact delivery and tools planning update)_
 
 ## Mission
 
@@ -15,14 +15,32 @@ Present Tucker Wray's software engineering and small-business systems work in an
 | Milestone | Status | Gate / observable outcome | Slice |
 | --- | --- | --- | --- |
 | M0 — Independent illustrated release | **Complete** | Separate GitHub repo, static Netlify deploy, branded HTTPS subdomain, project cards, responsive design, Netlify form registered | ILL-00 |
-| M1 — Lead capture end-to-end | **Needs verification** | One legitimate inquiry visible in Netlify Forms, expected inbox notification received, handling/spam path checked | ILL-01 |
+| M1 - Lead capture end-to-end | **Owner-confirmed delivery (2026-10-27)** | Manual test visible in Netlify Forms and the intended inbox; earlier automated test found in Spam. [Dated record](records/contact-intake-2026-10-27.md) | ILL-01 |
 | M2 — Curated proof checkpoint | **Started — evidence packet pending** | Tucker confirmed ProofTree has just started (2026-10-19); assemble the smallest verified, public-safe WAMIF evidence packet without waiting for the entire registry | ILL-02 |
 | M3 — WAMIF link and claim correction | **Blocked by minimal evidence packet and destination review** | Select public-safe, logged-out-accessible project destination; correct both image/title links and technology/status claims | ILL-03 · [Issue #1](https://github.com/jtwray/portfolio-illustrated/issues/1) |
 | M4 — Portfolio release QA and evidence hygiene | **Proposed** | Confirm remaining project links, copy, accessibility, mobile, outbound CTA, contact, and proof references without regressions | ILL-04 |
 
 **ProofTree checkpoint (2026-10-19):** Tucker says the curated proof library was **just started**. The canonical [ProofTree repository](https://github.com/jtwray/prooftree) currently exists but has no committed files. This is a repository observation, **not** a judgment that no evidence exists in WAMIF or other projects. The portfolio needs only a minimal independently verified proof packet for ILL-03; ProofTree itself does not have to be finished.
 
-Only **one implementation slice** should be active at a time. Work marked *Proposed* is not an implementation authorization. The next unclosed acceptance gate is M1; ILL-02 may inventory evidence while the full ProofTree system is being developed independently.
+Only **one implementation slice** should be active at a time. Work marked *Proposed* is not an implementation authorization. M1 capture/inbox delivery is closed on owner confirmation; retain ordinary contact regression checks. ILL-02 remains a separate evidence checkpoint while the full ProofTree system is developed independently.
+
+## Try my tools workstream - planning baseline (2026-10-27)
+
+Tucker endorsed a bounded small-business demo catalogue and requested that the
+plan be preserved on a main-based branch with a draft PR. The recommended entry
+point is a static /tools/ secondary page, with progressive interaction and
+product-owned trial backends. See [the complete plan](TRY_MY_TOOLS.md).
+
+| Slice | State | Outcome |
+| --- | --- | --- |
+| ILL-TOOLS-00 | Planning documentation prepared for owner review | Catalogue, architecture, limits, service paths, and contact evidence |
+| ILL-TOOLS-01 | Proposed implementation | Matching catalogue page, one isolated sample, and existing-form inquiry handoff |
+| ILL-TOOLS-02 | Proposed; provider/budget controls required | Verified email trial with enforced usage limits |
+| ILL-TOOLS-03 | Proposed; per-product readiness required | Additional tools added individually |
+
+These namespaced IDs avoid existing ILL-05/06/07 work on other open branches.
+This documentation does not implement trials or move product roadmaps here.
+Existing WAMIF, readiness, media, and domain-cutover gates retain their own scope.
 
 ## WAMIF decision record / guardrails
 

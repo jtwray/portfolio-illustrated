@@ -6,6 +6,17 @@ An alternative, responsive, static developer portfolio using original mixed-medi
 
 Open `index.html` in a browser or start a static server such as `python -m http.server 8000` from the repository root. The site has no build step, npm dependencies or runtime API keys.
 
+## Try my tools (PR candidate)
+
+The new [tools page](tools/index.html) is available at /tools/ when served over
+HTTP. It contains one interactive, fictional inquiry board and six other
+catalogue entries with discussion/planned-trial labels. The sample keeps state
+only in the current page and resets on reload.
+
+Tool inquiry links draft an editable message in the existing Netlify reachout
+form; they do not submit it. Live email sending remains a future slice.
+See the [implementation review record](docs/records/tools-page-2026-10-27.md).
+
 ## Source
 
 - `index.html`: semantic HTML and portfolio content.

@@ -87,11 +87,12 @@ The [tools plan](TRY_MY_TOOLS.md#delivery-sequence-and-acceptance) contains the
 catalogue, page structure, per-tool readiness, boundaries, and acceptance criteria.
 
 - **ILL-TOOLS-00:** preserve the plan and owner-confirmed contact evidence in a main-based draft PR.
-- **ILL-TOOLS-01:** proposed static /tools/ catalogue, one isolated sample, and existing-form inquiry handoff.
+- **ILL-TOOLS-01:** implemented and locally verified; owner review pending. Static /tools/ catalogue, isolated inquiry-board sample, and existing-form inquiry handoff. See the [review record](records/tools-page-2026-10-27.md).
 - **ILL-TOOLS-02:** proposed verified email trial; settle provider, budget, retention, and enforceable controls before live sends.
 - **ILL-TOOLS-03:** proposed additional tools, each with its own product-specific checks.
 
-Only documentation is included in ILL-TOOLS-00. Merging it does not launch a page
-or authorize live sending. These IDs avoid collisions with the other open
-portfolio branches. Product implementation stays with each product repository;
-the portfolio owns its catalogue and inquiry handoff.
+ILL-TOOLS-00 was the documentation checkpoint. The branch now also contains
+ILL-TOOLS-01; merging will publish the catalogue and fictional sample through the
+existing main deployment. Live sending remains ILL-TOOLS-02. These IDs avoid
+collisions with other open portfolio branches. Production product implementation
+stays with each product repository; the portfolio owns its catalogue and sample.

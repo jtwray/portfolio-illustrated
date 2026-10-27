@@ -33,13 +33,15 @@ product-owned trial backends. See [the complete plan](TRY_MY_TOOLS.md).
 
 | Slice | State | Outcome |
 | --- | --- | --- |
-| ILL-TOOLS-00 | Planning documentation prepared for owner review | Catalogue, architecture, limits, service paths, and contact evidence |
-| ILL-TOOLS-01 | Proposed implementation | Matching catalogue page, one isolated sample, and existing-form inquiry handoff |
+| ILL-TOOLS-00 | Preserved in the draft PR | Catalogue, architecture, limits, service paths, and contact evidence |
+| ILL-TOOLS-01 | Implemented and locally verified; owner review pending | Matching catalogue page, one isolated sample, and existing-form inquiry handoff |
 | ILL-TOOLS-02 | Proposed; provider/budget controls required | Verified email trial with enforced usage limits |
 | ILL-TOOLS-03 | Proposed; per-product readiness required | Additional tools added individually |
 
 These namespaced IDs avoid existing ILL-05/06/07 work on other open branches.
-This documentation does not implement trials or move product roadmaps here.
+The branch now implements the catalogue and an isolated fictional sample; see the
+[review record](records/tools-page-2026-10-27.md). Live messaging and production
+product integrations remain later work. Product roadmaps stay in their own repos.
 Existing WAMIF, readiness, media, and domain-cutover gates retain their own scope.
 
 ## WAMIF decision record / guardrails

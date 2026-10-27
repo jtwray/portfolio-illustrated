@@ -1,6 +1,6 @@
 # Try my tools: small-business demo catalogue
 
-_Status: planning baseline for owner review. Recorded 2026-10-27._
+_Status: ILL-TOOLS-01 implemented and locally verified; owner review pending. Updated 2026-10-27._
 _Repository: jtwray/portfolio-illustrated. Starting main: 6c28b3f1422fc9ff0d72b712d6e74bc122653443._
 
 ## Purpose and authorization
@@ -9,10 +9,11 @@ Let a small-business visitor experience a small, useful result, then request set
 customization, repair, training, or ongoing care. Tucker endorsed this concept and
 requested a branch from the portfolio's main and a descriptive draft PR.
 
-This change preserves the plan and the owner's contact-test confirmation. Merging
-this documentation does not implement the tools page, activate trials, contact
-visitors, connect customer accounts, purchase services, or change hosting or DNS.
-The page architecture below is the recommended implementation for review.
+The initial documentation checkpoint preserved this plan and the owner's contact
+confirmation. The branch now also implements ILL-TOOLS-01: the /tools/ page, a
+fictional inquiry-board sample, portfolio links, and an editable contact handoff.
+See the [implementation review record](records/tools-page-2026-10-27.md).
+Live sending and product integrations remain later slices.
 
 ## Page architecture
 
@@ -50,12 +51,13 @@ adds a business entry point without replacing the professional portfolio.
 
 Inventory reflects source/documentation and prior project reports reviewed on
 2026-10-26, with portfolio main checked on 2026-10-27. These are adaptation proposals,
-not claims that the public trials already work. No fresh product runtime tests
-were performed for this planning change.
+not claims that the original products or future trials are all ready. The isolated
+portfolio sample was browser-tested for ILL-TOOLS-01; the existing products were
+not re-tested by that slice.
 
 | Foundation | Bounded free experience | Paid continuation | Readiness / next work |
 | --- | --- | --- | --- |
-| Dashboarda | Explore a clearly labeled sample customer/job/task board; filter records and inspect changes | A business dashboard and connected workflows | Existing dashboard/state patterns; prepare an isolated public sample and verify browser behavior |
+| Dashboarda | Explore a clearly labeled sample customer/job/task board; filter records and inspect changes | A business dashboard and connected workflows | Isolated portfolio sample implemented and locally verified; production Dashboarda remains separate |
 | SignalDesk | Add one sample prospect, repeat the operation, and see an update without duplicate records | Form/CRM/Airtable synchronization and follow-up workflow | Feature implementation evidence exists; verify the exact revision and an isolated destination before offering a live sync |
 | Email Action dashboard | Explore fictional messages and the actions they require | Inbox triage and follow-up setup | Existing display application; it does not establish sending or an authorized live-inbox integration |
 | HTML-to-PDF API | Complete a short sample estimate and download its PDF | Branded estimates, reports, and document generation | Prior local HTML rendering was reported; locate source/deployment and recheck the chosen template path before enabling a trial |
@@ -174,7 +176,7 @@ open portfolio branches. Keep implementation work in bounded, reviewable slices.
 | Slice | Outcome | Acceptance evidence |
 | --- | --- | --- |
 | ILL-TOOLS-00 | Preserve this plan and contact confirmation | Documentation review, links/paths checked, main-based branch and descriptive draft PR; no runtime files changed |
-| ILL-TOOLS-01 | Catalogue page and one isolated Dashboarda sample | /tools/ direct navigation/refresh works; desktop/mobile and keyboard checks; sample data and availability labels are accurate; inquiry handoff retains the selected tool; existing contact/navigation still work |
+| ILL-TOOLS-01 | Implemented/local verification complete; owner review pending: catalogue page and isolated dashboard-pattern sample | /tools/ direct navigation/refresh works; desktop/mobile and keyboard checks; sample data and availability labels are accurate; inquiry handoff retains the selected tool; existing contact/navigation still work |
 | ILL-TOOLS-02 | Verified email trial | Server-side destination binding; real send only to the verified recipient; tested resend/guess/usage/global-budget limits and retry behavior; no sensitive logs; observed success/failure states; explicit inquiry and separate optional follow-up |
 | ILL-TOOLS-03 | Add other ready tools individually | Each tool has a source revision, truthful mode/limits, isolated data, product-specific verification, and a relevant service handoff |
 
@@ -192,7 +194,8 @@ Reconcile shared README/roadmap/slice edits when combining branches. Preserve th
 unrelated plans and media. Supersede stale contact wording with the dated owner
 record without claiming that every gate in those PRs is complete.
 
-Merging this PR saves the plan, closes the outdated form-delivery blocker on owner
-evidence, and identifies the next tools slice. It does not publish a catalogue,
-merge the other drafts, execute product work, change the live form, or authorize
-a domain cutover.
+The branch now includes the plan and ILL-TOOLS-01. Merging it will publish the
+catalogue and sample through the existing main deployment. It does not activate
+live messaging, connect production product data, submit the contact form, merge
+the other drafts, or authorize a domain cutover. Owner review and merge remain
+outstanding; no merge or domain change was performed in this work.

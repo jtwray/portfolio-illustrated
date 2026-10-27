@@ -6,6 +6,17 @@ An alternative, responsive, static developer portfolio using original mixed-medi
 
 Open `index.html` in a browser or start a static server such as `python -m http.server 8000` from the repository root. The site has no build step, npm dependencies or runtime API keys.
 
+## Try my tools (PR candidate)
+
+The new [tools page](tools/index.html) is available at /tools/ when served over
+HTTP. It contains one interactive, fictional inquiry board and six other
+catalogue entries with discussion/planned-trial labels. The sample keeps state
+only in the current page and resets on reload.
+
+Tool inquiry links draft an editable message in the existing Netlify reachout
+form; they do not submit it. Live email sending remains a future slice.
+See the [implementation review record](docs/records/tools-page-2026-10-27.md).
+
 ## Source
 
 - `index.html`: semantic HTML and portfolio content.
@@ -27,9 +38,11 @@ Before promoting this design to the apex domain, review project claims, content 
 
 - [Illustrated portfolio roadmap](docs/ROADMAP.md)
 - [Scoped slices and acceptance criteria](docs/SLICES.md)
+- [Try my tools: catalogue, page architecture, and delivery plan](docs/TRY_MY_TOOLS.md)
+- [Owner-confirmed contact intake, reported 2026-10-27](docs/records/contact-intake-2026-10-27.md)
 - [WAMIF proof/link follow-up](https://github.com/jtwray/portfolio-illustrated/issues/1)
 
-The Netlify `reachout` form is registered, but end-to-end submission and notification delivery must still be verified (Slice ILL-01). ProofTree was just started (2026-10-19); the public repo is currently empty, and a minimal WAMIF evidence packet remains to be assembled in Slice ILL-02.
+Tucker confirmed on 2026-10-27 that his manual portfolio-form test appears in both his email inbox and Netlify Forms. The earlier automated test was in the Spam tab; see the dated contact-intake record above. The former capture/inbox-delivery blocker is closed on owner evidence. ProofTree was just started (2026-10-19); the public repo is currently empty, and a minimal WAMIF evidence packet remains to be assembled in Slice ILL-02.
 
 ## Project links
 

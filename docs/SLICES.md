@@ -1,6 +1,6 @@
 # Illustrated Portfolio — Slices
 
-_Last reviewed: 2026-10-19_
+_Last reviewed: 2026-10-27 (contact delivery and tools planning update)_
 
 ## Slice operating rules
 
@@ -13,11 +13,19 @@ _Last reviewed: 2026-10-19_
 
 **Outcome:** Independently deployed site with original artwork, responsive HTML/CSS/JS, custom `illustrated.tuckerwray.com` HTTPS domain, corrected "Tucker Wray" wordmark, branded form confirmation page, and registered Netlify `reachout` form.
 
-**Verified:** Netlify returned a ready deploy from `main`; form detection was enabled, the `reachout` fields and honeypot were registered; the user verified the branded site/old apex separation and HTTPS. **Not verified:** full form submission and inbox delivery.
+**Verified:** Netlify returned a ready deploy from `main`; form detection was enabled, the `reachout` fields and honeypot were registered; the user verified the branded site/old apex separation and HTTPS. **Update 2026-10-27:** Tucker has since confirmed manual submission capture and inbox notification; see the dated ILL-01 record below.
 
 No further implementation is implied.
 
-## ILL-01 — Contact intake acceptance test [Next / Awaiting end-to-end proof]
+## ILL-01 - Contact intake acceptance test [Owner-confirmed delivery, 2026-10-27]
+
+**Owner confirmation (reported 2026-10-27):** the manual test is visible in the
+intended email inbox and Netlify Forms. The earlier automated test was found in
+the Spam tab. This closes the capture/inbox-delivery blocker. See the
+[dated evidence record](records/contact-intake-2026-10-27.md).
+No new production submission or independent inbox inspection was performed.
+The protocol below is retained for future regression checks; confirmation-page
+and reply-to behavior were not separately reported in this confirmation.
 
 **Goal:** Prove a genuine visitor inquiry reaches the owner, not just that the form markup is detected.
 
@@ -72,3 +80,19 @@ No further implementation is implied.
 ---
 
 **Backlog separation:** Airtable/SignalDesk is its own already-scoped integration effort; n8n belongs in a later Toolbelt Growth slice; RAG/voice/video-avatar explorations follow a clearly justified use case, not this portfolio launch.
+
+## ILL-TOOLS-00 through ILL-TOOLS-03 - Try my tools
+
+The [tools plan](TRY_MY_TOOLS.md#delivery-sequence-and-acceptance) contains the
+catalogue, page structure, per-tool readiness, boundaries, and acceptance criteria.
+
+- **ILL-TOOLS-00:** preserve the plan and owner-confirmed contact evidence in a main-based draft PR.
+- **ILL-TOOLS-01:** implemented and locally verified; owner review pending. Static /tools/ catalogue, isolated inquiry-board sample, and existing-form inquiry handoff. See the [review record](records/tools-page-2026-10-27.md).
+- **ILL-TOOLS-02:** proposed verified email trial; settle provider, budget, retention, and enforceable controls before live sends.
+- **ILL-TOOLS-03:** proposed additional tools, each with its own product-specific checks.
+
+ILL-TOOLS-00 was the documentation checkpoint. The branch now also contains
+ILL-TOOLS-01; merging will publish the catalogue and fictional sample through the
+existing main deployment. Live sending remains ILL-TOOLS-02. These IDs avoid
+collisions with other open portfolio branches. Production product implementation
+stays with each product repository; the portfolio owns its catalogue and sample.
